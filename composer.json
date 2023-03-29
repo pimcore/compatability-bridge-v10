@@ -2,7 +2,7 @@
   "name": "pimcore/compatibility-bridge",
   "license": "GPL-3.0+",
   "type": "pimcore-bundle",
-  "description": "Pimcore Compatibility Bridge provides class aliases for classes which were moved and are necessary for backwards compatibility.",
+  "description": "Pimcore Compatibility Bridge provides class aliases for the classes which were moved/updated and are necessary for backwards compatibility.",
   "config": {
     "sort-packages": true
   },
