@@ -29,7 +29,8 @@ $classAliases = [
     '\Pimcore\Model\DataObject\Data\GeoCoordinates' => '\Pimcore\Model\DataObject\Data\Geopoint',
     '\Pimcore\Bundle\AdminBundle\DataObject\GridColumnConfig\ConfigElementInterface' => '\Pimcore\DataObject\GridColumnConfig\ConfigElementInterface',
     '\Pimcore\Bundle\AdminBundle\Perspective\Config' => '\Pimcore\Perspective\Config',
-    '\Pimcore\Bundle\AdminBundle\CustomView\Config' => '\Pimcore\CustomView\Config'
+    '\Pimcore\Bundle\AdminBundle\CustomView\Config' => '\Pimcore\CustomView\Config',
+    '\Pimcore\Bundle\AdminBundle\Service\Workflow\ActionsButtonService' => '\Pimcore\Workflow\ActionsButtonService'
 ];
 
 foreach ($classAliases as $class => $alias) {
