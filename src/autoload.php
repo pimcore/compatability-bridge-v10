@@ -30,7 +30,9 @@ $classAliases = [
     '\Pimcore\Bundle\AdminBundle\DataObject\GridColumnConfig\ConfigElementInterface' => '\Pimcore\DataObject\GridColumnConfig\ConfigElementInterface',
     '\Pimcore\Bundle\AdminBundle\Perspective\Config' => '\Pimcore\Perspective\Config',
     '\Pimcore\Bundle\AdminBundle\CustomView\Config' => '\Pimcore\CustomView\Config',
-    '\Pimcore\Bundle\AdminBundle\Service\Workflow\ActionsButtonService' => '\Pimcore\Workflow\ActionsButtonService'
+    '\Pimcore\Bundle\AdminBundle\Service\Workflow\ActionsButtonService' => '\Pimcore\Workflow\ActionsButtonService',
+    '\Pimcore\Bundle\NewsletterBundle\Model\DataObject\ClassDefinition\Data\NewsletterConfirmed' => '\Pimcore\Model\DataObject\ClassDefinition\Data\NewsletterConfirmed',
+    '\Pimcore\Bundle\NewsletterBundle\Model\DataObject\ClassDefinition\Data\NewsletterActive' => '\Pimcore\Model\DataObject\ClassDefinition\Data\NewsletterActive',
 ];
 
 foreach ($classAliases as $class => $alias) {
